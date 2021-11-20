@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{5AEF0267-42CB-4537-934B-530D9160AA88}">
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{AF1A2F83-B360-45E4-87B2-8A4ADC4522CA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,12 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Provider=MSOLEDBSQL.1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABKO3pEq8zCnOTdYK7gzt93Vc0IeHmZttNHh9Jl5Hz20QAAAAAOgAAAAAIAACAAAADJDdEeyZc4QsRowIXU2mLkX/U5ZnGdBsin/BohG2E8AhAAAAD3MhHyLe0hAfdD+j41q5tVQAAAAP8z4DgbvLtYJJwWSh3pVstXy6nHEzdIg8kRg+OXGPcknV9wCHGAWgcRnXdrGsg8TuEp7G8SHh4YS7b+lerZd28</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Provider=MSOLEDBSQL.1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -42,12 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=STAGE;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABSIi/vjS+NlbyCC6cygGWR5D5j1Gc7PntehKHer+a+XwAAAAAOgAAAAAIAACAAAAD/Uf6wAidDZFwAMC5iXH5nQ4FSIjqRBO0Q69v5LE+dVRAAAAAIeVQiolNRWLx/zn+QAwxYQAAAADrmszRhDkc+655yilUnG0+6yfLfl/sL6TO80g4MiCYiy88kgoaBi/QE2WSe8CCLvYL1MLqxG19V/dHUslmJLfQ</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=STAGE;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -1673,11 +1663,15 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="150.4,41.6"
+          Size="150,42"
           Id="Package\Data Flow Task"
           TopLeft="248.630956615112,225.588238457907" />
         <NodeLayout
-          Size="196.8,41.6"
+          Size="161,42"
+          Id="Package\Truncate PCD-OA"
+          TopLeft="242.063496185809,69.6732035915194" />
+        <NodeLayout
+          Size="197,42"
           Id="Package\Truncate postcode_stage"
           TopLeft="224.091273563857,141.03660316316" />
         <EdgeLayout
@@ -1702,10 +1696,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\Truncate PCD-OA"
-          TopLeft="242.063496185809,69.6732035915194" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="322.477384874833,111.273203591519">
