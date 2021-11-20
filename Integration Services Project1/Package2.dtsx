@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{94D97ED9-EC04-40F5-8572-851084E523A3}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{EBCBCA85-9CE6-460B-AAB5-24E648AD55F1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -325,314 +325,6 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Accident_source_new]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{22A6F6C0-E123-42AA-94E8-FFE1EFC8AD97}"
-      DTS:ObjectName="Accident_source_new">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Chi Duyy\Downloads\UK Accidents Data 2011-2014 v2\Accidents1114.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Accident_Index"
-              DTS:DTSID="{09F53D76-EFD1-4A50-99C0-E5E1C64028EB}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Location_Easting_OSGR"
-              DTS:DTSID="{EE7E620F-1191-41B6-BB9E-2118DCA7503A}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Location_Northing_OSGR"
-              DTS:DTSID="{E9883E21-FA4E-4537-936B-431117B8783E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Longitude"
-              DTS:DTSID="{CBE385DF-5CD6-4713-97A3-1911FE7084BE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Latitude"
-              DTS:DTSID="{3627AD69-7756-47B4-B200-B9C0E0916A72}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Police_Force"
-              DTS:DTSID="{F8E539B2-BB51-4A21-906E-F8FAD3768FFA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Accident_Severity"
-              DTS:DTSID="{E97C2819-8DE4-4AFB-A684-361A6B6B5701}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Number_of_Vehicles"
-              DTS:DTSID="{2264AF9C-EDC2-46C2-8DCA-C66FF5CC84EA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Number_of_Casualties"
-              DTS:DTSID="{03E76773-58B5-45B3-A6AD-331BE5ED62F7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Date"
-              DTS:DTSID="{270C86FF-F8E5-41AB-8167-98CBB25D746A}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Day_of_Week"
-              DTS:DTSID="{BC366815-7323-4AB2-A58D-9A3B831F60F6}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Time"
-              DTS:DTSID="{0850AC84-D517-48D1-AA48-9794181830CE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Local_Authority_(District)"
-              DTS:DTSID="{834F256D-0327-4541-9EFB-32C53D3DB22B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Local_Authority_(Highway)"
-              DTS:DTSID="{8EC250FA-41A9-446F-9ACC-F768050C3B3B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="1st_Road_Class"
-              DTS:DTSID="{79F962D8-F806-43D7-82FC-27B94BA19053}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="1st_Road_Number"
-              DTS:DTSID="{92993DF7-39FC-43AE-B7C9-026E4736CBC5}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Road_Type"
-              DTS:DTSID="{835D0FE5-BBD2-4076-B530-374B70CF9D21}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Speed_limit"
-              DTS:DTSID="{60E0C2F2-A0DC-4907-BBFF-C21A9466FC56}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Junction_Detail"
-              DTS:DTSID="{647AE398-F112-41F6-A639-E5AA17F77BFD}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Junction_Control"
-              DTS:DTSID="{6700C7D5-75AE-4BE5-8E8B-9FB4E8E29F19}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="2nd_Road_Class"
-              DTS:DTSID="{BBA79C46-3D71-4DB0-844C-160CCAFE58D5}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="2nd_Road_Number"
-              DTS:DTSID="{719A8F05-6585-4D27-98EF-0B494B1B3E4B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Pedestrian_Crossing-Human_Control"
-              DTS:DTSID="{A6A2E9D4-CA08-468F-8392-36F0DCD0F8FC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Pedestrian_Crossing-Physical_Facilities"
-              DTS:DTSID="{8F465D15-41F3-4B78-A9D1-85A36C1DE7A6}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Light_Conditions"
-              DTS:DTSID="{4C362E55-CE73-4310-9E44-04B76F81419C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Weather_Conditions"
-              DTS:DTSID="{11BEA027-F489-4F67-B718-19752807AD7E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Road_Surface_Conditions"
-              DTS:DTSID="{FDA9640E-C58D-448D-979D-F47D8428B4D7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Special_Conditions_at_Site"
-              DTS:DTSID="{482FB448-B92E-49FC-85AE-B31B9B2BFEBE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Carriageway_Hazards"
-              DTS:DTSID="{48F0FDA7-E51E-4105-8FBB-7FAF95DF2D38}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Urban_or_Rural_Area"
-              DTS:DTSID="{187D1BC3-FD4B-42F2-AF6C-3AAB71DF74BA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Did_Police_Officer_Attend_Scene_of_Accident"
-              DTS:DTSID="{98D59741-3C1F-4122-9984-1BACF37D1B6B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="LSOA_of_Accident_Location"
-              DTS:DTSID="{B84F9A90-165D-479A-9BFC-11C65F1A3728}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Casual]"
       DTS:CreationName="FLATFILE"
       DTS:DTSID="{F768FA66-8B0B-4DFF-805E-BD0977CB4E03}"
@@ -785,173 +477,6 @@
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Casual_source_new]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{E97E3054-25EC-4343-AD8E-1757C36A20D6}"
-      DTS:ObjectName="Casual_source_new">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Chi Duyy\Downloads\UK Accidents Data 2011-2014 v2\Casualties1114.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Accident_Index"
-              DTS:DTSID="{F9C28C1D-0390-4DCF-9E6E-01A71B2B4392}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vehicle_Reference"
-              DTS:DTSID="{B327FBB3-7CAD-4C03-8972-D32F0797E2F2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Casualty_Reference"
-              DTS:DTSID="{F0818B8C-960F-4AD7-8253-D079350DCC5E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Casualty_Class"
-              DTS:DTSID="{AC98AAFD-7831-40E5-934A-53958EF14A0F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Sex_of_Casualty"
-              DTS:DTSID="{2686D6CF-4100-44DD-BB31-6D081860EA4D}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age_of_Casualty"
-              DTS:DTSID="{E01E689C-D41A-4558-BB82-2807AF5D0B52}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age_Band_of_Casualty"
-              DTS:DTSID="{D4701354-8F2E-4E43-952B-9A9D16001C24}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Casualty_Severity"
-              DTS:DTSID="{0D50A266-1693-49CF-9434-9421FDC3A278}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Pedestrian_Location"
-              DTS:DTSID="{5CDF46DF-B1A8-4541-AC66-803C781F136B}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Pedestrian_Movement"
-              DTS:DTSID="{165E2C66-CE33-4ACC-A10D-4B3BD1322258}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Car_Passenger"
-              DTS:DTSID="{6D8116C3-A958-42DD-A836-4C013C8B7C8C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Bus_or_Coach_Passenger"
-              DTS:DTSID="{0AE62BCF-30CD-4CDC-8B52-02FBE412E3BF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Pedestrian_Road_Maintenance_Worker"
-              DTS:DTSID="{1C17B57E-55D8-4A1F-B61D-14CB4A571D07}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Casualty_Type"
-              DTS:DTSID="{DCF28FCD-79E9-41C4-88B8-790330ACEF82}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Casualty_Home_Area_Type"
-              DTS:DTSID="{FDE42E23-5FA3-4B8E-9E0E-BE1CDF039738}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{9A6AFF2A-4389-4DD8-A006-2818E614825B}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.Stage">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -1492,224 +1017,6 @@
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Vehicles_source_new]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{1E11A7A0-A65B-4965-84ED-E6C361E77EEC}"
-      DTS:ObjectName="Vehicles_source_new">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\Chi Duyy\Downloads\UK Accidents Data 2011-2014 v2\Vehicles1114.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Accident_Index"
-              DTS:DTSID="{EA7B0118-2AE0-43C1-B18B-4F58ACAEC522}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vehicle_Reference"
-              DTS:DTSID="{89F8E769-9F89-4638-8BC1-31795137022F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vehicle_Type"
-              DTS:DTSID="{0D880A0A-952F-4D08-BD1E-706155FEC9DD}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Towing_and_Articulation"
-              DTS:DTSID="{27ACD745-3B91-4A75-9450-5585536E4818}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vehicle_Manoeuvre"
-              DTS:DTSID="{E3E3CE09-1939-42A9-A6EB-F89C26D39C5C}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vehicle_Location-Restricted_Lane"
-              DTS:DTSID="{80E2593B-36DB-4A77-9F1F-2126DB1E67C9}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Junction_Location"
-              DTS:DTSID="{F75E5F40-B9A9-41B8-BE75-30121F18B13E}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Skidding_and_Overturning"
-              DTS:DTSID="{48D5D1C2-4120-41A6-AF92-6CA6F59AD936}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Hit_Object_in_Carriageway"
-              DTS:DTSID="{154D5C1A-A245-48B7-952C-1CEE30AAD7A7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Vehicle_Leaving_Carriageway"
-              DTS:DTSID="{D604A73A-6F8C-4C20-9EA5-9BFE467170A6}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Hit_Object_off_Carriageway"
-              DTS:DTSID="{8A4666E8-BDCC-4935-9CDC-4393CB6820E8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="1st_Point_of_Impact"
-              DTS:DTSID="{BF374878-02A4-4B0D-8F4A-E7FA61B24317}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Was_Vehicle_Left_Hand_Drive?"
-              DTS:DTSID="{D9272215-16F8-4089-8DAB-BD17BB13A6D9}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Journey_Purpose_of_Driver"
-              DTS:DTSID="{B1765A86-41FE-41BC-81D2-9C40C5C84500}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Sex_of_Driver"
-              DTS:DTSID="{59832C41-C90D-49BF-AC10-2DF1A8B3877F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age_of_Driver"
-              DTS:DTSID="{3A89E2F1-60C1-43FE-8B65-4F0B6C5C49F0}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age_Band_of_Driver"
-              DTS:DTSID="{2FFE67F1-C543-4E9E-825A-80712AED8047}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Engine_Capacity_(CC)"
-              DTS:DTSID="{7E01C52A-232B-43FA-AE1F-08840916033F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Propulsion_Code"
-              DTS:DTSID="{8C60858C-D2F9-4BF4-98FA-5D3097B73AED}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age_of_Vehicle"
-              DTS:DTSID="{8B66D44F-AB2C-46DE-8CB7-F25ECD084DAD}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Driver_IMD_Decile"
-              DTS:DTSID="{DB5FD30F-427F-417F-8F0D-4B38E210C357}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Driver_Home_Area_Type"
-              DTS:DTSID="{BCFF71E3-16A3-4291-8942-BE45A080BB55}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
@@ -1728,11 +1035,11 @@
           version="1">
           <components>
             <component
-              refId="Package\Data Flow Task\Accidents stage"
+              refId="Package\Data Flow Task\Accidents_Stage"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Accidents stage"
+              name="Accidents_Stage"
               usesDispositions="true"
               version="4">
               <properties>
@@ -1765,7 +1072,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">3</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -1785,467 +1092,467 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Accidents stage.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
+                  refId="Package\Data Flow Task\Accidents_Stage.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input]"
+                  refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Accident_Index]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Accident_Index]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Accident_Index"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Accident_Index]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Location_Easting_OSGR]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Location_Easting_OSGR]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Location_Easting_OSGR"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Easting_OSGR]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Easting_OSGR]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Location_Easting_OSGR]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Location_Northing_OSGR]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Location_Northing_OSGR]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Location_Northing_OSGR"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Northing_OSGR]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Northing_OSGR]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Location_Northing_OSGR]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Longitude]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Longitude]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Longitude"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Longitude]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Longitude]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Longitude]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Latitude]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Latitude]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Latitude"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Latitude]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Latitude]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Latitude]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Police_Force]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Police_Force]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Police_Force"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Police_Force]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Police_Force]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Police_Force]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Accident_Severity]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Accident_Severity]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Accident_Severity"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Severity]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Severity]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Accident_Severity]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Number_of_Vehicles]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Number_of_Vehicles]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Number_of_Vehicles"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Vehicles]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Vehicles]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Number_of_Vehicles]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Number_of_Casualties]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Number_of_Casualties]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Number_of_Casualties"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Casualties]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Casualties]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Number_of_Casualties]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Date]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Date]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Date"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Date]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Date]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Date]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Day_of_Week]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Day_of_Week]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Day_of_Week"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Day_of_Week]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Day_of_Week]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Day_of_Week]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Time]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Time]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Time"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Time]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Time]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Time]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Local_Authority_(District)]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Local_Authority_(District)]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Local_Authority_(District)"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(District)]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(District)]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Local_Authority_(District)]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Local_Authority_(Highway)]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Local_Authority_(Highway)]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Local_Authority_(Highway)"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(Highway)]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(Highway)]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Local_Authority_(Highway)]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[1st_Road_Class]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[1st_Road_Class]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="1st_Road_Class"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Class]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Class]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[1st_Road_Class]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[1st_Road_Number]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[1st_Road_Number]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="1st_Road_Number"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Number]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Number]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[1st_Road_Number]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Road_Type]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Road_Type]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Road_Type"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Type]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Type]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Road_Type]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Speed_limit]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Speed_limit]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Speed_limit"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Speed_limit]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Speed_limit]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Speed_limit]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Junction_Detail]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Junction_Detail]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Junction_Detail"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Detail]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Detail]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Junction_Detail]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Junction_Control]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Junction_Control]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Junction_Control"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Control]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Control]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Junction_Control]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[2nd_Road_Class]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[2nd_Road_Class]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="2nd_Road_Class"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Class]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Class]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[2nd_Road_Class]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[2nd_Road_Number]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[2nd_Road_Number]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="2nd_Road_Number"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Number]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Number]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[2nd_Road_Number]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Crossing-Human_Control]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Crossing-Human_Control]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Pedestrian_Crossing-Human_Control"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Human_Control]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Human_Control]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Pedestrian_Crossing-Human_Control]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Crossing-Physical_Facilities]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Crossing-Physical_Facilities]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Pedestrian_Crossing-Physical_Facilities"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Physical_Facilities]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Physical_Facilities]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Pedestrian_Crossing-Physical_Facilities]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Light_Conditions]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Light_Conditions]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Light_Conditions"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Light_Conditions]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Light_Conditions]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Light_Conditions]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Weather_Conditions]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Weather_Conditions]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Weather_Conditions"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Weather_Conditions]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Weather_Conditions]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Weather_Conditions]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Road_Surface_Conditions]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Road_Surface_Conditions]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Road_Surface_Conditions"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Surface_Conditions]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Surface_Conditions]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Road_Surface_Conditions]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Special_Conditions_at_Site]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Special_Conditions_at_Site]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Special_Conditions_at_Site"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Special_Conditions_at_Site]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Special_Conditions_at_Site]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Special_Conditions_at_Site]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Carriageway_Hazards]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Carriageway_Hazards]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Carriageway_Hazards"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Carriageway_Hazards]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Carriageway_Hazards]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Carriageway_Hazards]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Urban_or_Rural_Area]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Urban_or_Rural_Area]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Urban_or_Rural_Area"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Urban_or_Rural_Area]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Urban_or_Rural_Area]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Urban_or_Rural_Area]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[Did_Police_Officer_Attend_Scene_of_Accident]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[Did_Police_Officer_Attend_Scene_of_Accident]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Did_Police_Officer_Attend_Scene_of_Accident"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Did_Police_Officer_Attend_Scene_of_Accident]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Did_Police_Officer_Attend_Scene_of_Accident]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[Did_Police_Officer_Attend_Scene_of_Accident]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].Columns[LSOA_of_Accident_Location]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].Columns[LSOA_of_Accident_Location]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="LSOA_of_Accident_Location"
-                      externalMetadataColumnId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[LSOA_of_Accident_Location]"
+                      externalMetadataColumnId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[LSOA_of_Accident_Location]"
                       lineageId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output].Columns[LSOA_of_Accident_Location]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Accident_Index" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Easting_OSGR]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Easting_OSGR]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Location_Easting_OSGR" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Northing_OSGR]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Location_Northing_OSGR]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Location_Northing_OSGR" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Longitude]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Longitude]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Longitude" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Latitude]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Latitude]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Latitude" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Police_Force]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Police_Force]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Police_Force" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Severity]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Severity]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Accident_Severity" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Vehicles]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Vehicles]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Number_of_Vehicles" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Casualties]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Number_of_Casualties]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Number_of_Casualties" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Date]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Date]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Date" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Day_of_Week]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Day_of_Week]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Day_of_Week" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Time]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Time]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Time" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(District)]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(District)]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Local_Authority_(District)" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(Highway)]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Local_Authority_(Highway)]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Local_Authority_(Highway)" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Class]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Class]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="1st_Road_Class" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Number]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Road_Number]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="1st_Road_Number" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Type]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Type]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Road_Type" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Speed_limit]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Speed_limit]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Speed_limit" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Detail]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Detail]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Junction_Detail" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Control]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Control]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Junction_Control" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Class]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Class]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="2nd_Road_Class" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Number]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[2nd_Road_Number]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="2nd_Road_Number" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Human_Control]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Human_Control]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Pedestrian_Crossing-Human_Control" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Physical_Facilities]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Crossing-Physical_Facilities]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Pedestrian_Crossing-Physical_Facilities" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Light_Conditions]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Light_Conditions]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Light_Conditions" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Weather_Conditions]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Weather_Conditions]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Weather_Conditions" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Surface_Conditions]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Road_Surface_Conditions]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Road_Surface_Conditions" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Special_Conditions_at_Site]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Special_Conditions_at_Site]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Special_Conditions_at_Site" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Carriageway_Hazards]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Carriageway_Hazards]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Carriageway_Hazards" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Urban_or_Rural_Area]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Urban_or_Rural_Area]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Urban_or_Rural_Area" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[Did_Police_Officer_Attend_Scene_of_Accident]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Did_Police_Officer_Attend_Scene_of_Accident]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Did_Police_Officer_Attend_Scene_of_Accident" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input].ExternalColumns[LSOA_of_Accident_Location]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input].ExternalColumns[LSOA_of_Accident_Location]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -2255,22 +1562,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Accidents stage.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Data Flow Task\Accidents_Stage.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Accidents stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Accidents_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Accidents stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Accidents_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Accidents stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Accidents_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2279,11 +1586,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Casual stage"
+              refId="Package\Data Flow Task\Casual_Stage"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Casual stage"
+              name="Casual_Stage"
               usesDispositions="true"
               version="4">
               <properties>
@@ -2294,7 +1601,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[Casual_Stage]</property>
+                  name="OpenRowset">[Casual_Stage]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -2336,229 +1643,229 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Casual stage.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
+                  refId="Package\Data Flow Task\Casual_Stage.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input]"
+                  refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Accident_Index]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Accident_Index]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Accident_Index"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Accident_Index]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Reference]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Reference]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Vehicle_Reference"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Vehicle_Reference]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Casualty_Reference]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Casualty_Reference]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Casualty_Reference"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Reference]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Reference]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Casualty_Reference]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Casualty_Class]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Casualty_Class]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Casualty_Class"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Class]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Class]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Casualty_Class]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Sex_of_Casualty]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Sex_of_Casualty]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Sex_of_Casualty"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Casualty]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Casualty]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Sex_of_Casualty]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Age_of_Casualty]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Age_of_Casualty]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Age_of_Casualty"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Casualty]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Casualty]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Age_of_Casualty]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Age_Band_of_Casualty]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Age_Band_of_Casualty]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Age_Band_of_Casualty"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Casualty]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Casualty]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Age_Band_of_Casualty]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Casualty_Severity]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Casualty_Severity]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Casualty_Severity"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Severity]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Severity]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Casualty_Severity]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Location]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Location]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Pedestrian_Location"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Location]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Location]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Pedestrian_Location]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Movement]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Movement]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Pedestrian_Movement"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Movement]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Movement]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Pedestrian_Movement]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Car_Passenger]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Car_Passenger]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Car_Passenger"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Car_Passenger]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Car_Passenger]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Car_Passenger]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Bus_or_Coach_Passenger]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Bus_or_Coach_Passenger]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Bus_or_Coach_Passenger"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Bus_or_Coach_Passenger]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Bus_or_Coach_Passenger]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Bus_or_Coach_Passenger]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Road_Maintenance_Worker]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Pedestrian_Road_Maintenance_Worker]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Pedestrian_Road_Maintenance_Worker"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Road_Maintenance_Worker]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Road_Maintenance_Worker]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Pedestrian_Road_Maintenance_Worker]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Casualty_Type]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Casualty_Type]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Casualty_Type"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Type]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Type]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Casualty_Type]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].Columns[Casualty_Home_Area_Type]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].Columns[Casualty_Home_Area_Type]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Casualty_Home_Area_Type"
-                      externalMetadataColumnId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Home_Area_Type]"
+                      externalMetadataColumnId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Home_Area_Type]"
                       lineageId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output].Columns[Casualty_Home_Area_Type]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Accident_Index" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Vehicle_Reference" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Reference]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Reference]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Casualty_Reference" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Class]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Class]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Casualty_Class" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Casualty]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Casualty]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Sex_of_Casualty" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Casualty]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Casualty]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Age_of_Casualty" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Casualty]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Casualty]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Age_Band_of_Casualty" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Severity]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Severity]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Casualty_Severity" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Location]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Location]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Pedestrian_Location" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Movement]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Movement]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Pedestrian_Movement" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Car_Passenger]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Car_Passenger]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Car_Passenger" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Bus_or_Coach_Passenger]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Bus_or_Coach_Passenger]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Bus_or_Coach_Passenger" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Road_Maintenance_Worker]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Pedestrian_Road_Maintenance_Worker]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Pedestrian_Road_Maintenance_Worker" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Type]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Type]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Casualty_Type" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Home_Area_Type]"
+                      refId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Casualty_Home_Area_Type]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -2568,22 +1875,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Casual stage.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Data Flow Task\Casual_Stage.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Casual stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Casual_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Casual stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Casual_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Casual stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Casual_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Casual stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Casual_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -2613,8 +1920,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Source_Accidents.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Accident_source_new]"
-                  connectionManagerRefId="Package.ConnectionManagers[Accident_source_new]"
+                  connectionManagerID="Package.ConnectionManagers[Accident]"
+                  connectionManagerRefId="Package.ConnectionManagers[Accident]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -3574,8 +2881,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Source_Casual.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Casual_source_new]"
-                  connectionManagerRefId="Package.ConnectionManagers[Casual_source_new]"
+                  connectionManagerID="Package.ConnectionManagers[Casual]"
+                  connectionManagerRefId="Package.ConnectionManagers[Casual]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -4059,8 +3366,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Source_Vehicles.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Vehicles_source_new]"
-                  connectionManagerRefId="Package.ConnectionManagers[Vehicles_source_new]"
+                  connectionManagerID="Package.ConnectionManagers[Vehicles]"
+                  connectionManagerRefId="Package.ConnectionManagers[Vehicles]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -4719,11 +4026,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Vehicles stage"
+              refId="Package\Data Flow Task\Vehicles_Stage"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Vehicles stage"
+              name="Vehicles_Stage"
               usesDispositions="true"
               version="4">
               <properties>
@@ -4734,7 +4041,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[Vehicles_Stage]</property>
+                  name="OpenRowset">[Vehicles_Stage]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -4776,327 +4083,327 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Vehicles stage.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
-                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
+                  refId="Package\Data Flow Task\Vehicles_Stage.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input]"
+                  refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Accident_Index]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Accident_Index]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Accident_Index"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Accident_Index]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Reference]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Reference]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Vehicle_Reference"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Vehicle_Reference]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Type]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Type]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Vehicle_Type"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Type]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Type]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Vehicle_Type]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Towing_and_Articulation]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Towing_and_Articulation]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Towing_and_Articulation"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Towing_and_Articulation]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Towing_and_Articulation]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Towing_and_Articulation]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Manoeuvre]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Manoeuvre]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Vehicle_Manoeuvre"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Manoeuvre]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Manoeuvre]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Vehicle_Manoeuvre]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Location-Restricted_Lane]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Location-Restricted_Lane]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Vehicle_Location-Restricted_Lane"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Location-Restricted_Lane]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Location-Restricted_Lane]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Vehicle_Location-Restricted_Lane]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Junction_Location]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Junction_Location]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Junction_Location"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Location]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Location]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Junction_Location]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Skidding_and_Overturning]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Skidding_and_Overturning]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Skidding_and_Overturning"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Skidding_and_Overturning]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Skidding_and_Overturning]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Skidding_and_Overturning]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Hit_Object_in_Carriageway]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Hit_Object_in_Carriageway]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Hit_Object_in_Carriageway"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_in_Carriageway]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_in_Carriageway]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Hit_Object_in_Carriageway]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Leaving_Carriageway]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Vehicle_Leaving_Carriageway]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Vehicle_Leaving_Carriageway"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Leaving_Carriageway]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Leaving_Carriageway]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Vehicle_Leaving_Carriageway]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Hit_Object_off_Carriageway]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Hit_Object_off_Carriageway]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Hit_Object_off_Carriageway"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_off_Carriageway]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_off_Carriageway]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Hit_Object_off_Carriageway]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[1st_Point_of_Impact]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[1st_Point_of_Impact]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="1st_Point_of_Impact"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Point_of_Impact]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Point_of_Impact]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[1st_Point_of_Impact]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Was_Vehicle_Left_Hand_Drive?]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Was_Vehicle_Left_Hand_Drive?]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Was_Vehicle_Left_Hand_Drive?"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Was_Vehicle_Left_Hand_Drive?]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Was_Vehicle_Left_Hand_Drive?]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Was_Vehicle_Left_Hand_Drive?]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Journey_Purpose_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Journey_Purpose_of_Driver]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Journey_Purpose_of_Driver"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Journey_Purpose_of_Driver]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Journey_Purpose_of_Driver]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Journey_Purpose_of_Driver]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Sex_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Sex_of_Driver]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Sex_of_Driver"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Driver]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Driver]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Sex_of_Driver]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Age_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Age_of_Driver]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Age_of_Driver"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Driver]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Driver]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Age_of_Driver]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Age_Band_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Age_Band_of_Driver]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Age_Band_of_Driver"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Driver]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Driver]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Age_Band_of_Driver]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Engine_Capacity_(CC)]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Engine_Capacity_(CC)]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Engine_Capacity_(CC)"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Engine_Capacity_(CC)]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Engine_Capacity_(CC)]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Engine_Capacity_(CC)]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Propulsion_Code]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Propulsion_Code]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Propulsion_Code"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Propulsion_Code]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Propulsion_Code]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Propulsion_Code]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Age_of_Vehicle]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Age_of_Vehicle]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Age_of_Vehicle"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Vehicle]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Vehicle]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Age_of_Vehicle]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Driver_IMD_Decile]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Driver_IMD_Decile]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Driver_IMD_Decile"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_IMD_Decile]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_IMD_Decile]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Driver_IMD_Decile]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].Columns[Driver_Home_Area_Type]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].Columns[Driver_Home_Area_Type]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="Driver_Home_Area_Type"
-                      externalMetadataColumnId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_Home_Area_Type]"
+                      externalMetadataColumnId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_Home_Area_Type]"
                       lineageId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output].Columns[Driver_Home_Area_Type]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Accident_Index]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Accident_Index" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Reference]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Vehicle_Reference" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Type]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Type]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Vehicle_Type" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Towing_and_Articulation]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Towing_and_Articulation]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Towing_and_Articulation" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Manoeuvre]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Manoeuvre]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Vehicle_Manoeuvre" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Location-Restricted_Lane]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Location-Restricted_Lane]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Vehicle_Location-Restricted_Lane" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Location]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Junction_Location]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Junction_Location" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Skidding_and_Overturning]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Skidding_and_Overturning]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Skidding_and_Overturning" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_in_Carriageway]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_in_Carriageway]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Hit_Object_in_Carriageway" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Leaving_Carriageway]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Vehicle_Leaving_Carriageway]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Vehicle_Leaving_Carriageway" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_off_Carriageway]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Hit_Object_off_Carriageway]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Hit_Object_off_Carriageway" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Point_of_Impact]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[1st_Point_of_Impact]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="1st_Point_of_Impact" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Was_Vehicle_Left_Hand_Drive?]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Was_Vehicle_Left_Hand_Drive?]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Was_Vehicle_Left_Hand_Drive?" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Journey_Purpose_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Journey_Purpose_of_Driver]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Journey_Purpose_of_Driver" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Sex_of_Driver]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Sex_of_Driver" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Driver]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Age_of_Driver" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Driver]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_Band_of_Driver]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Age_Band_of_Driver" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Engine_Capacity_(CC)]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Engine_Capacity_(CC)]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Engine_Capacity_(CC)" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Propulsion_Code]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Propulsion_Code]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Propulsion_Code" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Vehicle]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Age_of_Vehicle]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Age_of_Vehicle" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_IMD_Decile]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_IMD_Decile]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="Driver_IMD_Decile" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_Home_Area_Type]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input].ExternalColumns[Driver_Home_Area_Type]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -5106,22 +4413,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Vehicles stage.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Data Flow Task\Vehicles_Stage.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Vehicles stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Vehicles_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Vehicles stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Vehicles_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Vehicles stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Vehicles_Stage.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -5133,19 +4440,19 @@
           <paths>
             <path
               refId="Package\Data Flow Task.Paths[Flat File Source Output]"
-              endId="Package\Data Flow Task\Casual stage.Inputs[OLE DB Destination Input]"
+              endId="Package\Data Flow Task\Accidents_Stage.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
-              startId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output]" />
+              startId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Flat File Source Output1]"
-              endId="Package\Data Flow Task\Vehicles stage.Inputs[OLE DB Destination Input]"
+              endId="Package\Data Flow Task\Vehicles_Stage.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
               startId="Package\Data Flow Task\Source_Vehicles.Outputs[Flat File Source Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Flat File Source Output2]"
-              endId="Package\Data Flow Task\Accidents stage.Inputs[OLE DB Destination Input]"
+              endId="Package\Data Flow Task\Casual_Stage.Inputs[OLE DB Destination Input]"
               name="Flat File Source Output"
-              startId="Package\Data Flow Task\Source_Accidents.Outputs[Flat File Source Output]" />
+              startId="Package\Data Flow Task\Source_Casual.Outputs[Flat File Source Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -5163,7 +4470,7 @@
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{9A6AFF2A-4389-4DD8-A006-2818E614825B}"
+          SQLTask:Connection="{611700F3-A44E-4DC5-957D-E46F25A80EC5}"
           SQLTask:SqlStatementSource="TRUNCATE TABLE Accidents_Stage" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -5176,11 +4483,11 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate table Casual"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{9A6AFF2A-4389-4DD8-A006-2818E614825B}"
+          SQLTask:Connection="{611700F3-A44E-4DC5-957D-E46F25A80EC5}"
           SQLTask:SqlStatementSource="TRUNCATE TABLE Casual_Stage" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -5193,11 +4500,11 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Truncate table Vehicles"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{9A6AFF2A-4389-4DD8-A006-2818E614825B}"
+          SQLTask:Connection="{611700F3-A44E-4DC5-957D-E46F25A80EC5}"
           SQLTask:SqlStatementSource="TRUNCATE TABLE Vehicles_Stage" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -5241,19 +4548,19 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="155,42"
+          Size="155.2,41.6"
           Id="Package\Data Flow Task"
           TopLeft="379,326" />
         <NodeLayout
-          Size="200,42"
+          Size="200,41.6"
           Id="Package\Truncate table Accidents"
           TopLeft="140,142" />
         <NodeLayout
-          Size="186,42"
+          Size="185.6,41.6"
           Id="Package\Truncate table Casual"
           TopLeft="598.5,144.5" />
         <NodeLayout
-          Size="194,42"
+          Size="193.6,41.6"
           Id="Package\Truncate table Vehicles"
           TopLeft="381.5,142.5" />
         <EdgeLayout
@@ -5367,55 +4674,55 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="162,42"
+          Size="148,41.6"
+          Id="Package\Data Flow Task\Casual_Stage"
+          TopLeft="643.5,357.5" />
+        <NodeLayout
+          Size="161.6,41.6"
           Id="Package\Data Flow Task\Source_Vehicles"
           TopLeft="376.5,151.5" />
         <NodeLayout
-          Size="154,42"
+          Size="153.6,41.6"
           Id="Package\Data Flow Task\Source_Casual"
           TopLeft="612.5,144.5" />
         <NodeLayout
-          Size="168,42"
+          Size="168,41.6"
           Id="Package\Data Flow Task\Source_Accidents"
           TopLeft="133.5,145.5" />
         <NodeLayout
-          Size="157,42"
-          Id="Package\Data Flow Task\Accidents stage"
-          TopLeft="114.5,301.5" />
+          Size="156,41.6"
+          Id="Package\Data Flow Task\Vehicles_Stage"
+          TopLeft="378.5,356.5" />
         <NodeLayout
-          Size="151,42"
-          Id="Package\Data Flow Task\Vehicles stage"
-          TopLeft="378.5,307.5" />
-        <NodeLayout
-          Size="143,42"
-          Id="Package\Data Flow Task\Casual stage"
-          TopLeft="646.5,306.5" />
+          Size="161.6,41.6"
+          Id="Package\Data Flow Task\Accidents_Stage"
+          TopLeft="138.5,354.5" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
           TopLeft="689.5,186.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="28.5,120"
+              EndConnector="28,171"
               Start="0,0"
-              End="28.5,112.5">
+              End="28,163.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,56" />
+                    End="0,81.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,56"
-                    Point2="0,60"
-                    Point3="4,60" />
+                    Point1="0,81.5"
+                    Point2="0,85.5"
+                    Point3="4,85.5" />
                   <mssgle:LineSegment
-                    End="24.5,60" />
+                    End="24,85.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="24.5,60"
-                    Point2="28.5,60"
-                    Point3="28.5,64" />
+                    Point1="24,85.5"
+                    Point2="28,85.5"
+                    Point3="28,89.5" />
                   <mssgle:LineSegment
-                    End="28.5,112.5" />
+                    End="28,163.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5426,18 +4733,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="455.75,193.5">
+          TopLeft="457,193.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,114"
+              EndConnector="0,163"
               Start="0,0"
-              End="0,106.5">
+              End="0,155.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,106.5" />
+                    End="0,155.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5447,31 +4754,19 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
-          TopLeft="217.5,187.5">
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="218.5,187.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-24.5,114"
+              EndConnector="0,167"
               Start="0,0"
-              End="-24.5,106.5">
+              End="0,159.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,53"
-                    Point2="0,57"
-                    Point3="-4,57" />
-                  <mssgle:LineSegment
-                    End="-20.5,57" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-20.5,57"
-                    Point2="-24.5,57"
-                    Point3="-24.5,61" />
-                  <mssgle:LineSegment
-                    End="-24.5,106.5" />
+                    End="0,159.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5484,7 +4779,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Accidents stage">
+    design-time-name="Package\Data Flow Task\Casual_Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5497,7 +4792,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Vehicles stage">
+    design-time-name="Package\Data Flow Task\Vehicles_Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5510,7 +4805,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Casual stage">
+    design-time-name="Package\Data Flow Task\Accidents_Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

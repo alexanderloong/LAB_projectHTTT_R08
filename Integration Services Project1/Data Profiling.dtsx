@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{4A880BB6-A715-4012-A319-CF1258535BEA}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{9AE8330D-6750-43F2-8E8F-572EAF4BAB0A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -38,61 +38,6 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[data_profiling_accidents.xml]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{E0C17D68-0EB9-4DD2-9E9F-86D54D267C49}"
-      DTS:ObjectName="data_profiling_accidents.xml">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:FileUsageType="1"
-          DTS:ConnectionString="data_profiling_accidents.xml" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[data_profiling_casual.xml]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{A41F5D36-404C-4F41-9824-C96402271F81}"
-      DTS:ObjectName="data_profiling_casual.xml">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:FileUsageType="1"
-          DTS:ConnectionString="data_profiling_casual.xml" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[data_profiling_vehicles]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{6BF40557-D57C-423B-9A6D-1DFB6E767D7B}"
-      DTS:ObjectName="data_profiling_vehicles">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:FileUsageType="1"
-          DTS:ConnectionString="data_profiling_vehicles" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[data_profiling_vehicles.xml]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{3EEAB564-9A7B-4A7D-961F-91B424C75E11}"
-      DTS:ObjectName="data_profiling_vehicles.xml">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:FileUsageType="1"
-          DTS:ConnectionString="data_profiling_vehicles.xml" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[data_profiling_vehicles.xml 1]"
-      DTS:CreationName="FILE"
-      DTS:DTSID="{06853FA8-4E3E-4ADF-82CD-AA64C3736DCF}"
-      DTS:ObjectName="data_profiling_vehicles.xml 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:FileUsageType="1"
-          DTS:ConnectionString="C:\Users\Chi Duyy\Desktop\LAB#2\data_profiling_vehicles.xml" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[data_profilling_postcode]"
       DTS:CreationName="FILE"
       DTS:DTSID="{582B6640-0E23-4013-96DB-8D6A84DDD43F}"
@@ -114,163 +59,23 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-CEE9UFA\CDUYY.Stage]"
-      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-      DTS:DTSID="{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}"
-      DTS:ObjectName="DESKTOP-CEE9UFA\CDUYY.Stage">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-CEE9UFA\CDUYY;Initial Catalog=Stage;Integrated Security=True;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa]"
       DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
       DTS:DTSID="{D05AC8BE-F4AF-406A-BA92-E8CF77400FDA}"
       DTS:ObjectName="DESKTOP-FHVT7BL\ALEXLOONG.STAGE.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=STAGE;" />
+          DTS:ConnectionString="Data Source=DESKTOP-FHVT7BL\ALEXLOONG;User ID=sa;Initial Catalog=STAGE;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAheDWgs5K6EutQCRhZmcTKgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACVdGHfAeax+KX+lrYaac0tlgAfO5VqYuZSyawOeZKEvgAAAAAOgAAAAAIAACAAAAA+a62QMq20obgiKFElYTi2oixJMdrpcOjfYdn1CjydcBAAAAD3nOHQ0bPPHhgsjtq2S15ZQAAAACZ18/rev8GkWFUyMOY7eL9aH8823oQVO/3t9vSMfAmUbu5yVCdWRCCX8yMl7JUiWXTZqEMMvewJCzQcnyxNCMY</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables />
   <DTS:Executables>
-    <DTS:Executable
-      DTS:refId="Package\accidents"
-      DTS:CreationName="Microsoft.DataProfilingTask"
-      DTS:Description="Data Profiling Task"
-      DTS:DTSID="{6889DB8F-7A03-4E14-9793-030E9B660690}"
-      DTS:ExecutableType="Microsoft.DataProfilingTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="accidents"
-      DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <DataProfilingTaskData
-          Destination="data_profiling_accidents.xml"
-          OverwriteDestination="True">
-          <ProfileInput><![CDATA[<?xml version="1.0" encoding="utf-16"?>
-<DataProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
-  <ProfileVersion>1.0</ProfileVersion>
-  <DataSources />
-  <DataProfileInput>
-    <ProfileMode>Exact</ProfileMode>
-    <Timeout>0</Timeout>
-    <Requests>
-      <ColumnNullRatioProfileRequest ID="NullRatioReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Accidents_Stage" />
-        <Column IsWildCard="true" />
-      </ColumnNullRatioProfileRequest>
-      <ColumnStatisticsProfileRequest ID="StatisticsReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Accidents_Stage" />
-        <Column IsWildCard="true" />
-      </ColumnStatisticsProfileRequest>
-      <ColumnLengthDistributionProfileRequest ID="LengthDistReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Accidents_Stage" />
-        <Column IsWildCard="true" />
-        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
-        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
-      </ColumnLengthDistributionProfileRequest>
-      <ColumnValueDistributionProfileRequest ID="ValueDistReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Accidents_Stage" />
-        <Column IsWildCard="true" />
-        <Option>FrequentValues</Option>
-        <FrequentValueThreshold>0.001</FrequentValueThreshold>
-      </ColumnValueDistributionProfileRequest>
-      <CandidateKeyProfileRequest ID="KeyReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Accidents_Stage" />
-        <KeyColumns>
-          <Column IsWildCard="true" />
-        </KeyColumns>
-        <ThresholdSetting>Specified</ThresholdSetting>
-        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
-        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
-        <MaxNumberOfViolations>100</MaxNumberOfViolations>
-      </CandidateKeyProfileRequest>
-    </Requests>
-  </DataProfileInput>
-  <DataProfileOutput>
-    <Profiles />
-  </DataProfileOutput>
-</DataProfile>]]></ProfileInput>
-        </DataProfilingTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\casuals"
-      DTS:CreationName="Microsoft.DataProfilingTask"
-      DTS:Description="Data Profiling Task"
-      DTS:DTSID="{D4521F15-9121-4C64-BFC1-A5D0463C0308}"
-      DTS:ExecutableType="Microsoft.DataProfilingTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="casuals"
-      DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <DataProfilingTaskData
-          Destination="data_profiling_casual.xml"
-          OverwriteDestination="True">
-          <ProfileInput><![CDATA[<?xml version="1.0" encoding="utf-16"?>
-<DataProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
-  <ProfileVersion>1.0</ProfileVersion>
-  <DataSources />
-  <DataProfileInput>
-    <ProfileMode>Exact</ProfileMode>
-    <Timeout>0</Timeout>
-    <Requests>
-      <ColumnNullRatioProfileRequest ID="NullRatioReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Casual_Stage" />
-        <Column IsWildCard="true" />
-      </ColumnNullRatioProfileRequest>
-      <ColumnStatisticsProfileRequest ID="StatisticsReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Casual_Stage" />
-        <Column IsWildCard="true" />
-      </ColumnStatisticsProfileRequest>
-      <ColumnLengthDistributionProfileRequest ID="LengthDistReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Casual_Stage" />
-        <Column IsWildCard="true" />
-        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
-        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
-      </ColumnLengthDistributionProfileRequest>
-      <ColumnValueDistributionProfileRequest ID="ValueDistReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Casual_Stage" />
-        <Column IsWildCard="true" />
-        <Option>FrequentValues</Option>
-        <FrequentValueThreshold>0.001</FrequentValueThreshold>
-      </ColumnValueDistributionProfileRequest>
-      <CandidateKeyProfileRequest ID="KeyReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Casual_Stage" />
-        <KeyColumns>
-          <Column IsWildCard="true" />
-          <Column IsWildCard="true" />
-        </KeyColumns>
-        <ThresholdSetting>Specified</ThresholdSetting>
-        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
-        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
-        <MaxNumberOfViolations>100</MaxNumberOfViolations>
-      </CandidateKeyProfileRequest>
-    </Requests>
-  </DataProfileInput>
-  <DataProfileOutput>
-    <Profiles />
-  </DataProfileOutput>
-</DataProfile>]]></ProfileInput>
-        </DataProfilingTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
     <DTS:Executable
       DTS:refId="Package\PCDOA"
       DTS:CreationName="Microsoft.DataProfilingTask"
@@ -280,7 +85,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="PCDOA"
       DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <DataProfilingTaskData
@@ -347,7 +152,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="postcode"
       DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <DataProfilingTaskData
@@ -405,74 +210,6 @@
         </DataProfilingTaskData>
       </DTS:ObjectData>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\vehicles"
-      DTS:CreationName="Microsoft.DataProfilingTask"
-      DTS:Description="Data Profiling Task"
-      DTS:DTSID="{B3F5CD33-14ED-45B2-8850-9CFDC7D29E92}"
-      DTS:ExecutableType="Microsoft.DataProfilingTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="vehicles"
-      DTS:TaskContact="Data Profiling Task; Microsoft Corporation; SQL Server 2019; (c) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <DataProfilingTaskData
-          Destination="data_profiling_vehicles.xml"
-          OverwriteDestination="True">
-          <ProfileInput><![CDATA[<?xml version="1.0" encoding="utf-16"?>
-<DataProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
-  <ProfileVersion>1.0</ProfileVersion>
-  <DataSources />
-  <DataProfileInput>
-    <ProfileMode>Exact</ProfileMode>
-    <Timeout>0</Timeout>
-    <Requests>
-      <ColumnNullRatioProfileRequest ID="NullRatioReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Vehicles_Stage" />
-        <Column IsWildCard="true" />
-      </ColumnNullRatioProfileRequest>
-      <ColumnStatisticsProfileRequest ID="StatisticsReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Vehicles_Stage" />
-        <Column IsWildCard="true" />
-      </ColumnStatisticsProfileRequest>
-      <ColumnLengthDistributionProfileRequest ID="LengthDistReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Vehicles_Stage" />
-        <Column IsWildCard="true" />
-        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
-        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
-      </ColumnLengthDistributionProfileRequest>
-      <ColumnValueDistributionProfileRequest ID="ValueDistReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Vehicles_Stage" />
-        <Column IsWildCard="true" />
-        <Option>FrequentValues</Option>
-        <FrequentValueThreshold>0.001</FrequentValueThreshold>
-      </ColumnValueDistributionProfileRequest>
-      <CandidateKeyProfileRequest ID="KeyReq">
-        <DataSourceID>{A3F32760-7FB7-4E3F-AEC8-3CFFA1EB6E4B}</DataSourceID>
-        <Table Schema="dbo" Table="Vehicles_Stage" />
-        <KeyColumns>
-          <Column IsWildCard="true" />
-          <Column IsWildCard="true" />
-        </KeyColumns>
-        <ThresholdSetting>Specified</ThresholdSetting>
-        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
-        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
-        <MaxNumberOfViolations>100</MaxNumberOfViolations>
-      </CandidateKeyProfileRequest>
-    </Requests>
-  </DataProfileInput>
-  <DataProfileOutput>
-    <Profiles />
-  </DataProfileOutput>
-</DataProfile>]]></ProfileInput>
-        </DataProfilingTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
 <!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
@@ -485,27 +222,15 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="126,42"
-          Id="Package\accidents"
-          TopLeft="531,225" />
-        <NodeLayout
-          Size="112,42"
-          Id="Package\PCDOA"
-          TopLeft="342.142863139814,66.352943074744" />
-        <NodeLayout
-          Size="121,42"
+          Size="120.8,41.6"
           Id="Package\postcode"
-          TopLeft="183.714288962131,68.8823548609" />
+          TopLeft="190.714288962131,136.8823548609" />
         <NodeLayout
-          Size="119,42"
-          Id="Package\vehicles"
-          TopLeft="98.5,222.5" />
-        <NodeLayout
-          Size="116,42"
-          Id="Package\casuals"
-          TopLeft="299.5,240.5" />
+          Size="112,41.6"
+          Id="Package\PCDOA"
+          TopLeft="352.142863139814,135.352943074744" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
